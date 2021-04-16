@@ -7,4 +7,4 @@ Depending on the present hour the app will update to show which tasks had past, 
 
 ![Screen capture](./Assets/ScreenCapture.jpg)
 
-[Link to website](https://00anp.github.io/PortfolioV1/)
+[Link to website](https://00anp.github.io/Work-Day-Scheduler/)
