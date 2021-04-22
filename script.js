@@ -28,6 +28,133 @@ let hourBlock15 = document.getElementById("taskTitle15");
 let hourBlock16 = document.getElementById("taskTitle16");
 let hourBlock17 = document.getElementById("taskTitle17");
 
+//Logic Statements to add or remove a Class depending on the currentHour value
+if(currentHour == 9){
+  hourBlock9.classList.add("present");
+  hourBlock9.classList.remove("past");
+  hourBlock9.classList.remove("future");
+} else if (currentHour > 9){
+  hourBlock9.classList.add("past");
+  hourBlock9.classList.remove("present");
+  hourBlock9.classList.remove("future");
+} else if (currentHour < 9) {
+  hourBlock9.classList.add("future");
+  hourBlock9.classList.remove("past");
+  hourBlock9.classList.remove("present");
+}
+
+if(currentHour == 10){
+  hourBlock10.classList.add("present");
+  hourBlock10.classList.remove("past");
+  hourBlock10.classList.remove("future");
+} else if (currentHour > 10){
+  hourBlock10.classList.add("past");
+  hourBlock10.classList.remove("present");
+  hourBlock10.classList.remove("future");
+} else if (currentHour < 10) {
+  hourBlock10.classList.add("future");
+  hourBlock10.classList.remove("past");
+  hourBlock10.classList.remove("present");
+}
+
+if(currentHour == 11){
+  hourBlock11.classList.add("present");
+  hourBlock11.classList.remove("past");
+  hourBlock11.classList.remove("future");
+} else if (currentHour > 11){
+  hourBlock11.classList.add("past");
+  hourBlock11.classList.remove("present");
+  hourBlock11.classList.remove("future");
+} else if (currentHour < 11) {
+  hourBlock11.classList.add("future");
+  hourBlock11.classList.remove("past");
+  hourBlock11.classList.remove("present");
+}
+
+if(currentHour == 12){
+  hourBlock12.classList.add("present");
+  hourBlock12.classList.remove("past");
+  hourBlock12.classList.remove("future");
+} else if (currentHour > 12){
+  hourBlock12.classList.add("past");
+  hourBlock12.classList.remove("present");
+  hourBlock12.classList.remove("future");
+} else if (currentHour < 12) {
+  hourBlock12.classList.add("future");
+  hourBlock12.classList.remove("past");
+  hourBlock12.classList.remove("present");
+}
+
+if(currentHour == 13){
+  hourBlock13.classList.add("present");
+  hourBlock13.classList.remove("past");
+  hourBlock13.classList.remove("future");
+} else if (currentHour > 13){
+  hourBlock13.classList.add("past");
+  hourBlock13.classList.remove("present");
+  hourBlock13.classList.remove("future");
+} else if (currentHour < 13) {
+  hourBlock13.classList.add("future");
+  hourBlock13.classList.remove("past");
+  hourBlock13.classList.remove("present");
+}
+
+if(currentHour == 14){
+  hourBlock14.classList.add("present");
+  hourBlock14.classList.remove("past");
+  hourBlock14.classList.remove("future");
+} else if (currentHour > 14){
+  hourBlock14.classList.add("past");
+  hourBlock14.classList.remove("present");
+  hourBlock14.classList.remove("future");
+} else if (currentHour < 14) {
+  hourBlock14.classList.add("future");
+  hourBlock14.classList.remove("past");
+  hourBlock14.classList.remove("present");
+}
+
+if(currentHour == 15){
+  hourBlock15.classList.add("present");
+  hourBlock15.classList.remove("past");
+  hourBlock15.classList.remove("future");
+} else if (currentHour > 15){
+  hourBlock15.classList.add("past");
+  hourBlock15.classList.remove("present");
+  hourBlock15.classList.remove("future");
+} else if (currentHour < 15) {
+  hourBlock15.classList.add("future");
+  hourBlock15.classList.remove("past");
+  hourBlock15.classList.remove("present");
+}
+
+if(currentHour == 16){
+  hourBlock16.classList.add("present");
+  hourBlock16.classList.remove("past");
+  hourBlock16.classList.remove("future");
+} else if (currentHour > 16){
+  hourBlock16.classList.add("past");
+  hourBlock16.classList.remove("present");
+  hourBlock16.classList.remove("future");
+} else if (currentHour < 16) {
+  hourBlock16.classList.add("future");
+  hourBlock16.classList.remove("past");
+  hourBlock16.classList.remove("present");
+}
+
+if(currentHour == 17){
+  hourBlock17.classList.add("present");
+  hourBlock17.classList.remove("past");
+  hourBlock17.classList.remove("future");
+} else if (currentHour > 17){
+  hourBlock17.classList.add("past");
+  hourBlock17.classList.remove("present");
+  hourBlock17.classList.remove("future");
+} else if (currentHour < 17) {
+  hourBlock17.classList.add("future");
+  hourBlock17.classList.remove("past");
+  hourBlock17.classList.remove("present");
+}
+
 //Functions saveTask[i] saves the user input into the DOM
 function saveTask9(e){
   let taskHour = "9 am";
@@ -335,129 +462,4 @@ function getTasks17(){
 }
 getTasks17();
 
-//Logic Statements to add or remove a Class depending on the currentHour value
-if(currentHour == 9){
-  hourBlock9.classList.add("present");
-  hourBlock9.classList.remove("past");
-  hourBlock9.classList.remove("future");
-} else if (currentHour > 9){
-  hourBlock9.classList.add("past");
-  hourBlock9.classList.remove("present");
-  hourBlock9.classList.remove("future");
-} else if (currentHour < 9) {
-  hourBlock9.classList.add("future");
-  hourBlock9.classList.remove("past");
-  hourBlock9.classList.remove("present");
-}
 
-if(currentHour == 10){
-  hourBlock10.classList.add("present");
-  hourBlock10.classList.remove("past");
-  hourBlock10.classList.remove("future");
-} else if (currentHour > 10){
-  hourBlock10.classList.add("past");
-  hourBlock10.classList.remove("present");
-  hourBlock10.classList.remove("future");
-} else if (currentHour < 10) {
-  hourBlock10.classList.add("future");
-  hourBlock10.classList.remove("past");
-  hourBlock10.classList.remove("present");
-}
-
-if(currentHour == 11){
-  hourBlock11.classList.add("present");
-  hourBlock11.classList.remove("past");
-  hourBlock11.classList.remove("future");
-} else if (currentHour > 11){
-  hourBlock11.classList.add("past");
-  hourBlock11.classList.remove("present");
-  hourBlock11.classList.remove("future");
-} else if (currentHour < 11) {
-  hourBlock11.classList.add("future");
-  hourBlock11.classList.remove("past");
-  hourBlock11.classList.remove("present");
-}
-
-if(currentHour == 12){
-  hourBlock12.classList.add("present");
-  hourBlock12.classList.remove("past");
-  hourBlock12.classList.remove("future");
-} else if (currentHour > 12){
-  hourBlock12.classList.add("past");
-  hourBlock12.classList.remove("present");
-  hourBlock12.classList.remove("future");
-} else if (currentHour < 12) {
-  hourBlock12.classList.add("future");
-  hourBlock12.classList.remove("past");
-  hourBlock12.classList.remove("present");
-}
-
-if(currentHour == 13){
-  hourBlock13.classList.add("present");
-  hourBlock13.classList.remove("past");
-  hourBlock13.classList.remove("future");
-} else if (currentHour > 13){
-  hourBlock13.classList.add("past");
-  hourBlock13.classList.remove("present");
-  hourBlock13.classList.remove("future");
-} else if (currentHour < 13) {
-  hourBlock13.classList.add("future");
-  hourBlock13.classList.remove("past");
-  hourBlock13.classList.remove("present");
-}
-
-if(currentHour == 14){
-  hourBlock14.classList.add("present");
-  hourBlock14.classList.remove("past");
-  hourBlock14.classList.remove("future");
-} else if (currentHour > 14){
-  hourBlock14.classList.add("past");
-  hourBlock14.classList.remove("present");
-  hourBlock14.classList.remove("future");
-} else if (currentHour < 14) {
-  hourBlock14.classList.add("future");
-  hourBlock14.classList.remove("past");
-  hourBlock14.classList.remove("present");
-}
-
-if(currentHour == 15){
-  hourBlock15.classList.add("present");
-  hourBlock15.classList.remove("past");
-  hourBlock15.classList.remove("future");
-} else if (currentHour > 15){
-  hourBlock15.classList.add("past");
-  hourBlock15.classList.remove("present");
-  hourBlock15.classList.remove("future");
-} else if (currentHour < 15) {
-  hourBlock15.classList.add("future");
-  hourBlock15.classList.remove("past");
-  hourBlock15.classList.remove("present");
-}
-
-if(currentHour == 16){
-  hourBlock16.classList.add("present");
-  hourBlock16.classList.remove("past");
-  hourBlock16.classList.remove("future");
-} else if (currentHour > 16){
-  hourBlock16.classList.add("past");
-  hourBlock16.classList.remove("present");
-  hourBlock16.classList.remove("future");
-} else if (currentHour < 16) {
-  hourBlock16.classList.add("future");
-  hourBlock16.classList.remove("past");
-  hourBlock16.classList.remove("present");
-}
-
-if(currentHour == 17){
-  hourBlock17.classList.add("present");
-  hourBlock17.classList.remove("past");
-  hourBlock17.classList.remove("future");
-} else if (currentHour > 17){
-  hourBlock17.classList.add("past");
-  hourBlock17.classList.remove("present");
-  hourBlock17.classList.remove("future");
-} else if (currentHour < 17) {
-  hourBlock17.classList.add("future");
-  hourBlock17.classList.remove("past");
-  hourBlock17.classList.remove("present");
-}
